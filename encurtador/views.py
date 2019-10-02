@@ -13,3 +13,29 @@ def function_based_view(request, *args, **kwargs):
 class UrlCBView(View):
     def get(self, request, *args, **kwargs):
         return HttpResponse("olá novamente!")
+
+
+class HomeView(View):
+    def get(self, request, *args, **kwargs):
+        retorno = """
+        <html>
+            <head>
+                <title>Home View</title>
+            </head>
+            <body>
+                <h1>Página Principal</h1>
+            </body>
+        </html>
+        """
+        return HttpResponse(retorno)
+
+
+def ano_view(request, ano, *args, **kwargs):
+    pagina = f"""
+    <html>
+        <head><title>Exibir Ano</title></head>
+        <body>
+            <h1>{ano}</h1>
+        </body>
+    </html>"""
+    return HttpResponse(pagina)

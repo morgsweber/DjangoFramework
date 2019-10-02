@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from encurtador.views import function_based_view, UrlCBView
+from encurtador.views import function_based_view, UrlCBView, HomeView
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('olamundo/', function_based_view),
     path('oladenovo/', UrlCBView.as_view()),
+    path('', HomeView.as_view())
 ]
