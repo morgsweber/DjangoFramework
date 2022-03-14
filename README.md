@@ -1,15 +1,15 @@
 <center> <h1> DjangoTest </h1> </center>
 
-#####About the project
+<h5> About the project </h5>
 
 This repository was created to learn about Django Framework in high school class in the IT technician course.  
 The idea of this project is return a shorter URL from the input given away the user. 
 
-#####Requirements
+<h5>Requirements</h5>
 * [Python](https://www.python.org/downloads/)
 * [Django](https://www.djangoproject.com/download/)
 
-#####Running the project
+<h5>Running the project</h5>
 
 You need to create a Admin user to manage the URLs, with interface. So, in a powershell run: 
 
