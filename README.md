@@ -1,15 +1,15 @@
 # DjangoTest #
 
-#####About the project
+##### About the project
 
 This repository was created to learn about Django Framework in high school class in the IT technician course.  
 The idea of this project is return a shorter URL from the input given away the user. 
 
-#####Requirements
+##### Requirements
 * [Python](https://www.python.org/downloads/)
 * [Django](https://www.djangoproject.com/download/)
 
-#####Running the project
+##### Running the project
 
 You need to create a Admin user to manage the URLs, with interface. So, in a powershell run: 
 
