@@ -1,4 +1,4 @@
-# DjangoTest #
+# Django Framework #
 
 ##### About the project
 
